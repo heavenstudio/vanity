@@ -1,7 +1,6 @@
 .vanity .description { padding: 0; margin: 0 0 .6em 0; color: #666 }
 .vanity .meta { color: #666 }
 .vanity .footer { margin-top: 2em; text-align: right; font-size: 90% }
-.vanity h2, .vanity h3 { margin: 0 0 .3em 0 }
 .vanity .error { color: #ff2020; border: 1px solid #ff2020; background: #fff; padding: .3em }
 
 .vanity .experiments { list-style: none; margin: 0; padding: 0 }
@@ -9,12 +8,11 @@
 .vanity .experiment .type { margin-left: .3em; color: #bbb; font-size: .8em; font-weight: normal }
 
 .vanity .ab_test table { border-collapse: collapse; table-layout: fixed; width: 100%; border-bottom: 1px solid #ccc; margin: 1em 0 0 0 }
-.vanity .ab_test td { padding: .5em; border-top: 1px solid #ccc; width: 2em; overflow: hidden }
+.vanity .ab_test td { padding: .5em; border-top: 1px solid #ccc; overflow: hidden }
 .vanity .ab_test .choice td { font-weight: bold; background: #f0f0f8 }
 .vanity .ab_test caption { caption-side: bottom; padding: .5em; background: transparent; text-align: left }
-.vanity .ab_test td.option { width: 5em; white-space: nowrap; }
-.vanity .ab_test td.value { width: 8em;  }
-.vanity .ab_test td.action { width: 6em; text-align: right }
+.vanity .ab_test td.option { white-space: nowrap; }
+.vanity .ab_test td.action { text-align: right }
 
 .vanity .metrics { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid #ddd }
 .vanity .metric { margin: 2em 0 }
